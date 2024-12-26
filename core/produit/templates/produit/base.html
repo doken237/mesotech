@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'produit/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'produit/css/styles.css' %}">
+    
+    <title>Administration</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert-danger">Administration des donnees</h2>
+        {%block content%}  {%endblock content%}
+    </div>
+    
+
+    <script src="{% static 'produit/js/bootstrap.js' %}"></script>
+    <script src="{% static 'produit/js/jquery.js' %}"></script>
+    <script src="{% static 'produit/js/propper.js' %}"></script>
+    
+</body>
+</html>

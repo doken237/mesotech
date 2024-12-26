@@ -1,0 +1,1604 @@
+<<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'application/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'application/css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" 
+    />
+    
+    <title>Mesotech service</title>
+	
+</head>
+<body>
+    <header>
+		<div class="container">
+			<div class="row gy-5">
+				<div class="col-lg-12  my-5 bg-light">
+					<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+						<div class="container-fluid">
+						  <a class="navbar-brand" href="#"><img src="{% static 'application/images/Fichier 2.png' %}" alt="mon logo" width="60" height="50"></a>
+						  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+						  <div class="collapse navbar-collapse " id="navbarScroll">
+							<ul class="navbar-nav me-auto  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+							  <li class="nav-item">
+								<a class="nav-link active text-end" aria-current="page" href="#">Accueil</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link" href="#section1">Services</a>
+							  </li>
+							  <li class="nav-item dropdown">
+								<a class="nav-link " href="#section2" id="navbarScrollingDropdown" role="button"  aria-expanded="false">
+								  Produit
+								</a>
+								
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link " href="#section3" tabindex="-1" aria-disabled="false">Contact</a>
+							  </li>
+							</ul>
+							<form class="d-flex justify-a">
+							<i class="fa-regular fa-user pl-5"></i>
+							<button class="btne btn-primary ">Connection</button>
+							  
+							</form>
+						  </div>
+						</div>
+					  </nav>
+
+
+				</div>
+			</div>
+		</div> 
+	</header>
+
+	<main>
+		<section id="section1">
+			<div class="container">
+				<div class="row mt-5 ">
+					<div class="col-lg-8 offset-lg-2 me-1 text-center">
+						<div>
+							<h1 class=""> Nos Services</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row gy-lg-0 ">
+					<div class="col-lg-12 py-1 bg-light">
+						<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+							  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+						
+					
+							</div>
+							<div class="carousel-inner">
+							  <div class="carousel-item active" data-bs-interval="5000">
+								<img src="{% static 'application/images/banierre site web2 (1).png' %}" class="d-block w-100" alt="3">
+								<div class="carousel-caption d-none d-md-block">
+							
+								</div>
+							  </div>
+							  <div class="carousel-item" data-bs-interval="5000">
+								<img src="{% static 'application/images/banierre site web3.png' %}" class="d-block w-100" alt="1">
+								<div class="carousel-caption d-none d-md-block">
+								
+								</div>
+							  </div>
+							  <div class="carousel-item" data-bs-interval="5000">
+								<img src="{% static 'application/images/banierre site web4.png' %}" class="d-block w-100" alt="2">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5></h5>
+								  <p></p>
+								</div>
+							  </div>
+							  <div class="carousel-item"data-bs-interval="5000">
+								<img src="{% static 'application/images/banierre site web5.png' %}" class="d-block w-100" alt="2">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5></h5>
+								  <p></p>
+								</div>
+							  </div>
+							  <div class="carousel-item"data-bs-interval="5000">
+								<img src="{% static 'application/images/banierre site web6.png' %}" class="d-block w-100" alt="2">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5></h5>
+								  <p></p>
+								</div>
+							  </div>
+							  <div class="carousel-item"data-bs-interval="5000">
+								<img src="{% static 'application/images/banierre site web7.png' %}" class="d-block w-100" alt="2">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5></h5>
+								  <p></p>
+								</div>
+							  </div>
+							
+							<div class="carousel-item"data-bs-interval="5000">
+							  <img src="{% static 'application/images/banierre site web9.png' %}" class="d-block w-100" alt="2">
+							  <div class="carousel-caption d-none d-md-block">
+								<h5></h5>
+								<p></p>
+							  </div>
+							</div>
+					
+						<div class="carousel-item"data-bs-interval="5000">
+						  <img src="{% static 'application/images/banierre site web8.png' %}" class="d-block w-100" alt="2">
+						  <div class="carousel-caption d-none d-md-block">
+							<h5></h5>
+							<p></p>
+						  </div>
+						</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Next</span>
+							</button>
+						  </div>
+	
+	
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section id="section2">
+			<div class="container text-center">
+				<div class="row gy-lg-0 ">
+					<div class="col-lg-8 offset-lg-2 my-1 text-center">
+						<div>
+							<h1 class=""> Nos Produits <i class="fa fa-info" aria-hidden="true"></i></h1>
+						</div>
+					</div>
+				</div>
+				<!--laptops-->
+				<div class="row gy-2">
+					<div class="col-12  my-1 py-lg-1 bg-light text-center">
+						<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center    ">
+							<div class="card" style="width: 18rem;">
+								<img src="{% static 'application/images/1e.jpg' %}" class="card-img-top" alt="laptop">
+								<div class="card-body">
+								  <h5 class="card-title text-uppercase">Laptops </h5>
+								  <p class="card-text"> Decouvrez des laptops<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+								  <a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infolaptop"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+								  <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="infolaptop" aria-labelledby="offcanvasLabel">
+									<div class="offcanvas-header text-center">
+									  <h5 class="offcanvas-title " id="offcanvasLabel">Laptop</h5>
+									  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+                                        
+											<div class="container-fluid align-self-center">
+												<div class="row align-self-center">
+													<div class="col-lg-12 ">
+														<div class="row">
+															
+                                                           
+{% block content %}  {% endblock content %}
+
+													
+														
+												
+
+											</div>
+												</div>
+												</div>
+											</div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+						</div>
+						<!--Accesoires d'ordis-->
+						<div class="col-lg-3 col-md-6 col-sm-6  col-xs-12 d-flex justify-content-center align-self-center  ">
+							<div class="card" style="width: 18rem;">
+								<img src="{% static 'application/images/box tv.jpg' %}" class="card-img-top" alt="laptop">
+								<div class="card-body">
+								  <h5 class="card-title text-uppercase ">Accessoires Ordis</h5>
+								  <p class="card-text"> Decouvrez des Accessoires<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+									<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#accessoiresordi"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+						
+								</div>
+								<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="accessoiresordi" aria-labelledby="offcanvasLabel">
+									<div class="offcanvas-header text-center">
+									  <h5 class="offcanvas-title " id="offcanvasLabel">Accessoires d'ordinateurs</h5>
+									  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+											<div class="container-fluid align-self-center">
+												<div class="row align-self-center">
+													<div class="col-lg-12 ">
+														<div class="row">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/3.0.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase"> Boitier 3.0  </h5>
+																  <p class="card-text"> Pour laptop et desktops <BR> Boitier Laptop: <b>5000 Fcfa</b><BR> Boitier Desktops:<b> 12.000 Fcfa</b></p>
+																  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+
+															
+														
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/2.0.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Boitier 2.0 </h5>
+																  <p class="card-text"> Pour laptop et desktops <BR> Boitier Laptop: <b>4000 Fcfa</b><BR> Boitier Desktops:<b> 10.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/acc chargeur dell.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Chargeur Laptop</h5>
+																  <p class="card-text"> En fonction des marques <BR> HP,DELL,LENOVO: <b>10.000 Fcfa</b><BR>TOSHIBA,ACER,FUJITSU:<b> 8000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/alim.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text text-uppercase">Cable D'alimentation</h5>
+																  <p class="card-text"> Nous disposons de plusieurs types<BR> tripolaire: <b>2000 Fcfa</b><BR> alimentation, dipolaire:<b> 1000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+
+													</div>
+													<div class="row my-3">
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/clavier usb.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Clavier USB</h5>
+															  <p class="card-text"> filaire ou USB et sans Fil <BR> Clavier USB: <b>2000 Fcfa</b><BR> Clavier sans Fil<b> 10.000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+
+														
+													
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/souris.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Souris Usb  </h5>
+															  <p class="card-text"> filaire ou USB et sans Fil <BR> souris USB: <b>2000 Fcfa</b><BR> Clavier sans Fil<b> 5000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/vga.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Cable VGA </h5>
+															  <p class="card-text"> Nous disposons des HDMI,DVI,DP<BR> HDMI,DP: <b>2000 Fcfa</b><BR> VGA, DVI:<b> 1000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/carte-graphique1 (2).jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Carte graphique </h5>
+															  <p class="card-text"> Nous avons plusieurs models<BR> 1GB: <b>15.000 Fcfa</b><BR> 2GB:<b> 25.000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+
+												</div>
+												<div class="row my-3 me-xs-3 text-xs-center ">
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/cle usb.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Clé USB</h5>
+														  <p class="card-text">Ici, c'est fonction des capacités<BR> 32GB: <b>7000 Fcfa</b><BR> 128GB:<b> 20.000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+
+														</div>
+													  </div>
+
+													</div>
+
+													
+												
+												<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/CLE-WIFI-AVEC-ANTENNE-3DBI.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">clé wifi </h5>
+														  <p class="card-text">Nous avons plusieurs models<BR> clé wifi avec antenne: <b>7000 Fcfa</b><BR> Clé wifi avec antenne:<b> 7000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/baffle.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Baffle Bluetooh</h5>
+														  <p class="card-text">Nous avons plusieurs models<BR>Baffle 1er choix<b>12000 Fcfa</b><BR> baffle 2nd choix:<b> 7000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/flexible.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Clavier flexible</h5>
+														  <p class="card-text">Nous avons plusieurs models<BR> clavier 1er choix: <b>10.000 Fcfa</b><BR> Clavier 2nd Choix:<b> 6000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+
+											</div>
+												</div>
+												</div>
+											</div>
+									</div>
+								  </div>
+							  </div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12   d-flex justify-content-center align-self-center ">
+							<div class="card" style="width: 18rem;">
+								<img src="{% static 'application/images/desktop.jpg' %}" class="card-img-top" alt="laptop">
+								<div class="card-body">
+								  <h5 class="card-title">DESKTOPS</h5>
+								  <p class="card-text"> Decouvrez les desktops<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+									<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#desktops"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+								</div>
+								<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="desktops" aria-labelledby="offcanvasLabel">
+									<div class="offcanvas-header text-center">
+									  <h5 class="offcanvas-title " id="offcanvasLabel">Ordinateurs de bureaux</h5>
+									  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+											<div class="container-fluid align-self-center">
+												<div class="row align-self-center">
+													<div class="col-lg-12 ">
+														<div class="row">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/dell 9egen.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase"> Dell  9e generation  </h5>
+																  <p class="card-text"> Pour laptop et desktops <BR> Boitier Laptop: <b>5000 Fcfa</b><BR> Boitier Desktops:<b> 12.000 Fcfa</b></p>
+																  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+
+															
+														
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/DELL 11E.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Dell 11e Generation </h5>
+																  <p class="card-text"> Pour laptop et desktops <BR> Boitier Laptop: <b>4000 Fcfa</b><BR> Boitier Desktops:<b> 10.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/dell complet.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Dell Core I5 complet</h5>
+																  <p class="card-text"> En fonction des marques <BR> HP,DELL,LENOVO: <b>10.000 Fcfa</b><BR>TOSHIBA,ACER,FUJITSU:<b> 8000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/dell corei3.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text text-uppercase">Dell core I3 complet</h5>
+																  <p class="card-text"> Nous disposons de plusieurs types<BR> tripolaire: <b>2000 Fcfa</b><BR> alimentation, dipolaire:<b> 1000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+
+													</div>
+													<div class="row my-3">
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/dualcore lenovo.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Lenovo dualcore</h5>
+															  <p class="card-text"> filaire ou USB et sans Fil <BR> Clavier USB: <b>2000 Fcfa</b><BR> Clavier sans Fil<b> 10.000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+
+														
+													
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/ecran asus.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Ecran Asus </h5>
+															  <p class="card-text"> filaire ou USB et sans Fil <BR> souris USB: <b>2000 Fcfa</b><BR> Clavier sans Fil<b> 5000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/gamer.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Dell GAMER </h5>
+															  <p class="card-text"> Nous disposons des HDMI,DVI,DP<BR> HDMI,DP: <b>2000 Fcfa</b><BR> VGA, DVI:<b> 1000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/hp1.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">HP Tour Core I5</h5>
+															  <p class="card-text"> Nous avons plusieurs models<BR> 1GB: <b>15.000 Fcfa</b><BR> 2GB:<b> 25.000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+
+												</div>
+												<div class="row my-3 me-xs-3 text-xs-center ">
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/hp-280-g1-1-2.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">HP Tour I5 complet</h5>
+														  <p class="card-text">Ici, c'est fonction des capacités<BR> 32GB: <b>7000 Fcfa</b><BR> 128GB:<b> 20.000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+
+														</div>
+													  </div>
+
+													</div>
+
+													
+												
+												<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/lewnovo complet.jpeg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">lenovo Dual Complet </h5>
+														  <p class="card-text">Nous avons plusieurs models<BR> clé wifi avec antenne: <b>7000 Fcfa</b><BR> Clé wifi avec antenne:<b> 7000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/server lenovo.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Server Lenovo</h5>
+														  <p class="card-text">Nous avons plusieurs models<BR>Baffle 1er choix<b>12000 Fcfa</b><BR> baffle 2nd choix:<b> 7000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/tour acer.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Tour Complet Acer</h5>
+														  <p class="card-text">Nous avons plusieurs models<BR> clavier 1er choix: <b>10.000 Fcfa</b><BR> Clavier 2nd Choix:<b> 6000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+
+											</div>
+												</div>
+												</div>
+											</div>
+									</div>
+								  </div>
+								
+							  </div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6  col-xs-12   d-flex justify-content-center align-self-center">
+							<div class="card" style="width: 18rem;">
+								<img src="{% static 'application/images/accessoire-removebg-preview.png' %}" class="card-img-top" alt="laptop">
+								<div class="card-body">
+								  <h5 class="card-title text-uppercase">accessoires phones </h5>
+								  <p class="card-text"> Decouvrez nos accessoires<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+									<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#accessoirestel"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+								</div>
+								<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="accessoirestel" aria-labelledby="offcanvasLabel">
+									<div class="offcanvas-header text-center">
+									  <h5 class="offcanvas-title " id="offcanvasLabel">Accessoires Phones</h5>
+									  <button type="button" class="btn-close text-reset"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+											<div class="container-fluid align-self-center">
+												<div class="row align-self-center">
+													<div class="col-lg-12 ">
+														<div class="row">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/chargeur oraimo iphone.jpeg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase"> Chargeur Oraimo Iphone</h5>
+																  <p class="card-text"> Cela depend des Games<BR> 1er Choix: <b>7000 Fcfa</b><BR> 2nd choix:<b> 10.000 Fcfa</b></p>
+																  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+
+															
+														
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/Cordon android.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Cordon Android oraimo</h5>
+																  <p class="card-text"> Cela depend de la longueur <BR> 1m: <b>2000 Fcfa</b><BR> 2m:<b> 3000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/cordon phantom.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Cordon phantom</h5>
+																  <p class="card-text"> Cela depend de la qualite <BR> 1er choix: <b>2000 Fcfa</b><BR> 2nd choix:<b> 3000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/ECOUTEUR ORAIMO SANS FIL.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text text-uppercase">Ecouteur Sans Fil</h5>
+																  <p class="card-text"> Cela depend de la qualite<BR> 1er Choix: <b>15.000 Fcfa</b><BR> 2nd Choix:<b> 8000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+
+															</div>
+
+													</div>
+													<div class="row my-3">
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/ECOUTEUR ORAIMO.png" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">ecouteur oraimo </h5>
+															  <p class="card-text"> Cela depend de la qualite<BR> 1er Choix: <b>5000 Fcfa</b><BR> 2nd Choix:<b> 2000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+
+														
+													
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/iphone 2.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Cordon Iphone </h5>
+															  <p class="card-text"> Cela depend de la longeur<BR> 1m: <b>2000 Fcfa</b><BR> 2m:<b> 3000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/iphone.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Cordon Iphone Oraimo</h5>
+															  <p class="card-text"> Cela depend de la qualite<BR> 1er Choix: <b>5000 Fcfa</b><BR> 2nd Choix:<b> 1500 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+															<div class="card" style="width: 18rem;">
+															<img src="images/ORAIMO 1A.jpg" class="card-img-top" alt="laptop">
+															<div class="card-body">
+															  <h5 class="card-title text-uppercase">Chargeur Oraimo 1a</h5>
+															  <p class="card-text"> Nous avons plusieurs models<BR> En bout Android: <b>4000 Fcfa</b><BR> En bout Phantom:<b> 5000 Fcfa</b></p>
+																<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+															</div>
+														  </div>
+
+														</div>
+
+												</div>
+												<div class="row my-3 me-xs-3 text-xs-center ">
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/ORAIMO 2A.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Chargeur oraimo 2a</h5>
+														  <p class="card-text"> Nous avons plusieurs models<BR> En bout Android: <b>6000 Fcfa</b><BR> En bout Phantom:<b> 8000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+
+														</div>
+													  </div>
+
+													</div>
+
+													
+												
+												<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/otg.jpeg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">OTG Android </h5>
+														  <p class="card-text"> Cela depend de la qualite<BR> 1er Choix: <b>2000 Fcfa</b><BR> 2nd Choix:<b> 1500 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/POWEBANK.png" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Powerbank Oraimo</h5>
+														  <p class="card-text">Nous avons plusieurs models<BR> 1er choix<b>15.000 Fcfa</b><BR> baffle 2nd choix:<b> 10.000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+													<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+														<div class="card" style="width: 18rem;">
+														<img src="images/type c iphone.jpg" class="card-img-top" alt="laptop">
+														<div class="card-body">
+														  <h5 class="card-title text-uppercase">Cordon Iphone Type C</h5>
+														  <p class="card-text"> Cela depend de la qualite<BR> 1er Choix: <b>3000 Fcfa</b><BR> 2nd Choix:<b> 2000 Fcfa</b></p>
+															<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+														</div>
+													  </div>
+
+													</div>
+
+											</div>
+												</div>
+												</div>
+											</div>
+									</div>
+								  </div>
+							  </div>
+						</div>
+						
+						</div>
+						<div class="row  my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6  col-xs-12   d-flex justify-content-center align-self-center">
+									<div class="card" style="width: 18rem;">
+										<img src="{% static 'application/images/MAC.jpeg' %}" class="card-img-top" alt="laptop">
+										<div class="card-body">
+										  <h5 class="card-title text-uppercase">MacBook et Outils</h5>
+										  <p class="card-text"> Decouvrez les MacBook<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+											<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#infomacbook"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+										</div>
+										<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="infomacbook" aria-labelledby="offcanvasLabel">
+											<div class="offcanvas-header text-center">
+											  <h5 class="offcanvas-title " id="offcanvasLabel">MacBook et Accessoires</h5>
+											  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+											</div>
+											<div class="offcanvas-body">
+													<div class="container-fluid align-self-center">
+														<div class="row align-self-center">
+															<div class="col-lg-12 ">
+																<div class="row">
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/chargeur mac.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Chargeur Mac</h5>
+																		  <p class="card-text"> Avec une Puissance de 45Waths<BR> tres resistant et efficace<BR><b> Prix: 15.000 Fcfa</b></p>
+																		  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+		
+																	
+																
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/clavier mac.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Clavier Mac</h5>
+																		  <p class="card-text">Possede differente couleurs<BR> Sans Fils et non Filaire<BR><b> Prix: 10.000 Fcfa</b></p></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/ecouteur imac.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Ecouteur Imac</h5>
+																		  <p class="card-text">Tres pratique pour le travail<BR> filaire et sans fil <BR><b>Prix: 10.000 Fcfa</b></p></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/ecran apple.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text text-uppercase">Ecran Apple</h5>
+																		  <p class="card-text">Pratique et Imposant<BR> Taille comme 22" et 24" <BR><b>Prix: 65.000 Fcfa</b></p></p></p>
+																		  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+		
+															</div>
+															<div class="row my-3">
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/imac coree i5.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Imac 2015</h5>
+																	  <p class="card-text">SDD:256 GB ,  RAM: 8GB <BR> CPU: 2.4GHZ Core i5,Screen: 21" <BR><b>Prix: 169.999 Fcfa</b></p></p></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+																
+															
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/imac core i5 slim.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Imac slim 2021</h5>
+																	  <p class="card-text">SSD:256 GB ,RAM: 8GB, <BR> CPU: 2.2GHZ core I5,Screen: 21" <BR><b>Prix: 199.999 Fcfa</b></p></p></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/laptop mac retina core i5.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Mac retina Core I5</h5>
+																	  <p class="card-text">SSD:256 GB ,RAM: 4GB<BR> CPU:2.0Ghz ,Screen:14" <BR><b>Prix: 249.999 Fcfa</b></p></p></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/lecteur mac externe.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Lecteur mac externe</h5>
+																	  <p class="card-text">Pratique pour la gravure <BR>plusieurs game disponible <BR><b>Prix: 29.999 Fcfa</b></p></p></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+														</div>
+														<div class="row my-3 me-xs-3 text-xs-center ">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/macbookair-2015-choix.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Macbook_air 2015</h5>
+																  <p class="card-text">HDD:500 GB ,RAM: 8GB <BR> CPU: 2.4GHZ ,Screen: 14" <BR><b>Prix: 129.999 Fcfa</b></p></p></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+															
+														
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/macbook-air-2021.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Macbook_air-Air 2021</h5>
+																  <p class="card-text">SDD:512GB ,RAM:8GB <BR> CPU: 2.4GHZ core I5,Screen: 14" <BR><b>Prix: 349.999 Fcfa</b></p></p></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/macserver.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Mac_Server 2018</h5>
+																  <p class="card-text">SSD:512 GB ,RAM: 8GB,CORE i5 <BR> CPU:2.4GHZ  <BR><b>Prix:199.000 Fcfa</b></p></p></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/souris mac.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Souris Mac</h5>
+																  <p class="card-text"></p>Pratique et Imposant <BR>Filaire et sans Fil <BR><b>Prix: 9000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+													</div>
+														</div>
+														</div>
+													</div>
+											</div>
+										  </div>
+									  </div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12   d-flex justify-content-center align-self-center">
+									<div class="card" style="width: 18rem;">
+										<img src="{% static 'application/images/TEL2.png' %}" class="card-img-top" alt="laptop">
+										<div class="card-body">
+										  <h5 class="card-title text-uppercase">Telephones</h5>
+										  <p class="card-text"> Decouvrez les Telephones<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+											<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#telephone"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+										</div>
+										<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="telephone" aria-labelledby="offcanvasLabel">
+											<div class="offcanvas-header text-center">
+											  <h5 class="offcanvas-title " id="offcanvasLabel">Telephones</h5>
+											  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+											</div>
+											<div class="offcanvas-body">
+													<div class="container-fluid align-self-center">
+														<div class="row align-self-center">
+															<div class="col-lg-12 ">
+																<div class="row">
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																			<img src="images/s8.jpg" class="card-img-top" alt="laptop">
+																			<div class="card-body">
+																			  <h5 class="card-title text-uppercase">Samsung galaxy S8</h5>
+																			  <p class="card-text">ROM: 64GB , RAM: 4GB<BR> taille: 5.8"<BR><b> Prix: 150.000 Fcfa</b></p>
+																			  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																			</div>
+																	  </div>
+		
+																	</div>
+		
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																		<img src="images/Galaxy S10.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Samsung galaxy s10</h5>
+																		  <p class="card-text">ROM: 128GB , RAM: 8GB<BR> taille: 6.1"<BR><b> Prix: 179.000 Fcfa</b></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/redmi-note-8.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Redmi note 8</h5>
+																		  <p class="card-text">ROM: 128GB , RAM: 8GB<BR> taille: 5.8"<BR><b> Prix: 180.000 Fcfa</b></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/iphone 11.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text text-uppercase">Iphone 11 Pro max</h5>
+																		  <p class="card-text">ROM: 512GB<BR> taille: 7"<BR><b> Prix: 379.000 Fcfa</b></p>
+																		  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+		                             
+															</div>
+															<div class="row my-3">
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/12.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Iphone 12 pro</h5>
+																	  <p class="card-text">ROM: 256GB<BR> taille: 7"<BR><b> Prix: 419.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/iphone 13.png" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Iphone 13 pro </h5>
+																	  <p class="card-text">ROM: 512GB<BR> taille: 7"<BR><b> Prix: 549.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/xr.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Iphone xr</h5>
+																	  <p class="card-text">ROM: 128GB<BR> taille: 6.1"<BR><b> Prix: 189.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/LG.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Lg Velvet</h5>
+																	  <p class="card-text">ROM: 128GB , RAM: 6GB<BR> taille: 7" <BR><b>Prix: 199.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+														</div>
+														<div class="row my-3  text-xs-center ">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/a10.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">samsung a10</h5>
+																  <p class="card-text">ROM: 32GB RAM: 2GB<BR> taille: 6.2"<BR><b> Prix: 100.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/a30.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">samsung a30</h5>
+																  <p class="card-text">ROM: 64GB , RAM: 4GB<BR> taille: 5.8"<BR><b>Prix: 149.999 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/tecno-camon-19-4.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Tecno camon 19 pro</h5>
+																  <p class="card-text">ROM: 256GB , RAM: 8+5GB<BR> taille: 7"<BR><b>Prix:199.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/iphone 7 plus.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Iphone 7 plus</h5>
+																  <p class="card-text">ROM: 64GB <BR> taille: 7"<BR><b>Prix: 120.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+													</div>
+														</div>
+														</div>
+													</div>
+											</div>
+										  </div>
+										</div>
+										</div>
+									
+										
+										
+
+									  
+							
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12  d-flex justify-content-center align-self-center ">
+									<div class="card" style="width: 18rem;">
+										<img src="{% static 'application/images/IMP.jpg' %}" class="card-img-top" alt="laptop">
+										<div class="card-body">
+										  <h5 class="card-title text-uppercase">Imprimantes et Outils </h5>
+										  <p class="card-text"> Decouvrez des Imprimantes<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+											<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#Imprimantes"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+										</div>
+
+										<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="Imprimantes" aria-labelledby="offcanvasLabel">
+											<div class="offcanvas-header text-center">
+											<h5 class="offcanvas-title " id="offcanvasLabel">Imprimantes et Accessoires</h5>
+											  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+											</div>
+											<div class="offcanvas-body">
+													<div class="container-fluid align-self-center">
+														<div class="row align-self-center">
+															<div class="col-lg-12 ">
+																<div class="row">
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																			<img src="images/cable dimprimante.jpg" class="card-img-top" alt="laptop">
+																			<div class="card-body">
+																			  <h5 class="card-title text-uppercase">Cable d'imprimantes</h5>
+																			  <p class="card-text">Souple et pratique<BR> Longueur: 1.5m<BR><b> Prix: 2000 Fcfa</b></p>
+																			  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																			</div>
+																	  </div>
+		
+																	</div>
+		
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																		<img src="images/canon G550.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Canon G550</h5>
+																		  <p class="card-text">Mini et Pratque<BR>Couleur et à jet d'encre<BR><b> Prix: 90.000 Fcfa</b></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/canon jet d'encre.jpeg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">Canon Jet d'encre</h5>
+																		  <p class="card-text">Plusieurs Variétés disponibles <BR>Noir sur blanc et à jet d'encre<BR><b> Prix: 79.000 Fcfa</b></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/epson matricielle 24 aiguilles.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text text-uppercase">Epson Matricielle</h5>
+																		  <p class="card-text">possedant 24 aiguilles<BR>Couleur et Au carbone<BR><b> Prix: 250.000 Fcfa</b></p>
+																		  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+		                             
+															</div>
+															<div class="row my-3">
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/hp matricielle.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">hp matricielle</h5>
+																	  <p class="card-text">Possedant 24 Aiguilles<BR> Couleur et au carbone<BR><b> Prix: 279.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/hp-deskjet-2630jpg.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">hp deskjet 2630</h5>
+																	  <p class="card-text">Pratique pour les bureaux<BR>couleur et à jet d'encre<BR><b> Prix: 49.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/imprimante canon 2206.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Canon 2206</h5>
+																	  <p class="card-text">Pratique pour Entreprises<BR>Couleur et laser<BR><b> Prix: 319.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/imprimante epson.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Epson jet d'encre</h5>
+																	  <p class="card-text">Pour le bureau<BR>couleur, wifi et à  jet dùencre<BR><b>Prix: 99.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+														</div>
+														<div class="row my-3  text-xs-center ">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/machine-a-reluire-foska-hp5012.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Machine à  réluire</h5>
+																  <p class="card-text">Pratique et economique<BR> pour A4<BR><b> Prix: 80.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/ricoh-mpc300.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Ricoh mpc300</h5>
+																  <p class="card-text">Pour les Entreprises<BR>Laser et Couleur<BR><b>Prix: 400.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/ricoh mpc3033 A3.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Ricoh mpc3033 </h5>
+																  <p class="card-text">Imprime en A3<BR>Laser et Couleur<BR><b>Prix: 650.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/hp noir-blanc m135a.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">hp m135a</h5>
+																  <p class="card-text">Pratique et economique<BR>Noir sur blanc et laser<BR><b>Prix: 179.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+													</div>
+														</div>
+														</div>
+													</div>
+											</div>
+										  </div>
+									  </div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-6  col-xs-12 d-flex justify-content-center align-self-center">
+									<div class="card" style="width: 18rem;">
+										<img src="{%static 'application/images/televison.jpg' %}" class="card-img-top" alt="laptop">
+										<div class="card-body">
+										  <h5 class="card-title text-uppercase">Televisions et Autres</h5>
+										  <p class="card-text"> Decouvrez des televisions<BR>pour tous les prix et tout game<BR>appuyez sur le boutons <small>👇🏿</small></p>
+											<a href="#" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#televisons"><i class="fa fa-plus" aria-hidden="true"></i> Voir Plus</a>
+										</div>
+										<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="televisons" aria-labelledby="offcanvasLabel">
+											<div class="offcanvas-header text-center">
+											  <h5 class="offcanvas-title " id="offcanvasLabel">Televiseurs et accessoires</h5>
+											  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+											</div>
+											<div class="offcanvas-body">
+													<div class="container-fluid align-self-center">
+														<div class="row align-self-center">
+															<div class="col-lg-12 ">
+																<div class="row">
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																			<img src="images/ecrang samsung 32.png" class="card-img-top" alt="laptop">
+																			<div class="card-body">
+																			  <h5 class="card-title text-uppercase">Samsung 32" LED</h5>
+																			  <p class="card-text">Slim,Image en HD<BR> taille: 32"<BR><b> Prix: 65.000 Fcfa</b></p>
+																			  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																			</div>
+																	  </div>
+		
+																	</div>
+		
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																		<img src="images/ecran lg 32'' smart.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">LG 32" Smart</h5>
+																		  <p class="card-text">Slim,Image en HD<BR> taille: 32"<BR><b> Prix: 100.000 Fcfa</b></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/ecran lg 4''.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text-uppercase">LG 42" LED</h5>
+																		  <p class="card-text">Slim,Image en HD<BR> taille:42"<BR><b> Prix: 125.000 Fcfa</b></p>
+																			<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+																	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																		<div class="card" style="width: 18rem;">
+																		<img src="images/phillips 42'' smart.jpg" class="card-img-top" alt="laptop">
+																		<div class="card-body">
+																		  <h5 class="card-title text text-uppercase">Phillips 42" Smart</h5>
+																		  <p class="card-text">Slim,Image en HD<BR> taille: 42"<BR><b> Prix: 150.000 Fcfa</b></p>
+																		  <a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																		</div>
+																	  </div>
+		
+																	</div>
+		                             
+															</div>
+															<div class="row my-3">
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/phillips 50''.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Phillips 50" smart</h5>
+																	  <p class="card-text">Slim,Image en 4K<BR> taille: 50"<BR><b> Prix: 199.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/Toshiba 55''.png" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Toshiba 55" Led</h5>
+																	  <p class="card-text">Slim,Image en 4k<BR> taille: 55"<BR><b> Prix: 189.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/samsung 55''.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Samsung 55" smart</h5>
+																	  <p class="card-text">Slim,Image en 4k<BR> taille: 55"<BR><b> Prix: 219.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+																<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																	<div class="card" style="width: 18rem;">
+																	<img src="images/onduleur apc 3000 va.jpg" class="card-img-top" alt="laptop">
+																	<div class="card-body">
+																	  <h5 class="card-title text-uppercase">Onduleur Apc </h5>
+																	  <p class="card-text">Puissance: 3000Va<BR>pratique et economique<BR><b>Prix: 199.999 Fcfa</b></p>
+																		<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																	</div>
+																  </div>
+		
+																</div>
+		
+														</div>
+														<div class="row my-3  text-xs-center ">
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/regulateur de tension 3000va lg.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Regulateur de tension </h5>
+																  <p class="card-text">Puissance: 3000Watts<BR> pratique et economique<BR><b> Prix: 80.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+														<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/support mureau.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Support mural</h5>
+																  <p class="card-text">Plusieus tailles disponibles<BR> ce prix va de 26" à 42"<BR><b>Prix: 7000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/telecommande universel.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Telecommande </h5>
+																  <p class="card-text">Plusieurs Marques disponible<BR> pratique et pas chere<BR><b>Prix: 5000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+															<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-center align-self-center">
+																<div class="card" style="width: 18rem;">
+																<img src="images/tcl samart 50''.jpg" class="card-img-top" alt="laptop">
+																<div class="card-body">
+																  <h5 class="card-title text-uppercase">Tcl 50" smart</h5>
+																  <p class="card-text">Slim, Image en 4K<BR> taille: 50"<BR><b>Prix: 250.000 Fcfa</b></p>
+																	<a target="_blank" href="https://api.whatsapp.com/send?phone=237651726743" class="btn btn-primary"><i class="fa fa-whatsapp" aria-hidden="true"></i>  Commander</a>
+																</div>
+															  </div>
+		
+															</div>
+		
+													</div>
+														</div>
+														</div>
+													</div>
+											</div>
+										  </div>
+									  </div>
+								</div>
+								
+								</div>
+						
+					</div>	
+					</div>
+					</div>
+					
+				
+
+		</section>
+		<section id="section3">
+			<div class="container">
+				<div class="row gy-lg-0 ">
+					<div class="col-lg-8 offset-lg-2 my-1 text-center">
+						<div>
+							<h1 class="">Abonne-Toi!!!</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row gy-5">
+					<div class="col-lg-12 my-5 py-2 bg-light">
+						<div class="row">
+							<div class="col-lg-6 py-5 text-center">
+								<a target="_blank" href="https://www.google.com/maps/place/Mega+Soft+Tech/data=!3m1!4b1!4m2!3m1!1s0x10610deed70a7c63:0x57481a216b9776d4">
+									<img src="{% static 'application/images/MAP1.PNG' %}" alt="MAP"class="w-100"></a>
+								<p class="text-primary"><u><b>Ma localisation</b></u> </p>
+							</div>
+							<div class="col-lg-6 my-5 ">
+								<form action="index.php" class="row" method="POST">
+									<div class="col-6 text-center">
+										<label for="prenom" class=" form-label">prenom</label>
+										<input type="text" class="prenom form-control" name="prenom" id="prenom">
+									</div>
+									<div class="col-6 text-center">
+										<label for="nom" class="form-label">Nom</label>
+										<input type="text" class="form-control" name="nom" id="nom">
+									</div>
+									<div class="col-12">
+										<label for="email" class="  form-label">Email</label>
+										<input type="text" class=" email form-control" name="email" title="ce champ est obligatoire">
+									</div>
+									<div class="col-12">
+										<label for="number" class="  form-label">Tel</label>
+										<input type="text" class=" email form-control" name="phone" title="ce champ est obligatoire"  id="phone" >
+									</div>
+									<div class="col-12">
+										<label for="Message" class="form-label">Message</label>
+										<textarea name="message" id="message" rows="3" class="form-control"></textarea>
+									</div>
+									<div class="col-12 py-2">
+										<button class="btn btn-primary w-100" name="envoyer" type="submit">Envoyer</button>
+									</div>
+
+		
+								</form>
+								
+
+<!-- <?php
+if  (isset($_POST['envoyer']))
+{
+try
+{
+	// On se connecte à MySQL
+	$mysqlClient = new PDO('mysql:host=localhost;dbname=taff;charset=utf8', 'root', '');
+}
+catch(Exception $e)
+{
+	// En cas d'erreur, on affiche un message et on arrête tout
+        die('Erreur : '.$e->getMessage());
+}
+
+// Si tout va bien, on peut continuer
+
+// On récupère tout le contenu de la table recipes
+$sqlQuery = 'INSERT INTO  mail (nom,prenom,email,tel,message) values (:nom,:prenom,:email,:tel,:message)';
+$recipesStatement = $mysqlClient->prepare($sqlQuery);
+$recipesStatement->execute(['nom'=>$_POST['nom'],'prenom'=>$_POST['prenom'],'email'=>$_POST['email'],'tel'=>$_POST['phone'],'message'=>$_POST['message']]);
+$recipes = $recipesStatement->fetchAll();
+
+// On affiche chaque recette une à une
+if ($recipesStatement) {
+
+    echo '<div class="btn btn-success">'.'Ajout reussi'.'</div>';
+
+}
+
+
+else 
+{
+	echo '<div class="btn btn-danger">'.'un probleme c\'est produit'.'</div>';
+
+}
+}
+?>
+ -->
+							</div>
+						</div>
+						
+
+	
+	
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+	</main>
+
+	
+
+	<footer> 
+		<div class="container">
+			<div class="row gy-4 gy-md-0 my-5">
+				<div class=" col-12 col-md-4 text-md-end text-center">
+					<div class="me-1 py-4 text-md-center text-xs-center ">
+					<a href="#" class="text-light fw-bold bg-primary rounded-3"  style="text-decoration: none;">MEGA SOFT<a href="#" class="text-dark fw-bold text-md-end" style="text-decoration: none;"> TECH </a> </a>
+				</div>		
+				</div>
+				<div class=" col-12 col-md-4 text-xs-center  ">
+					<div class="me-1 py-4 text-md-end text-center">
+					<a href="#" class="text-dark " data-bs-toggle="modal" data-bs-target="#mentions" style="text-decoration: none;">Mentions Legales </a>
+				</div>
+			</div>
+				<div class=" col-12 col-md-4 text-xs-center ">
+					<div class="me-1 py-4 " >
+					<ul class="list-inline text-md-end text-center">
+						<a href="https://www.linkedin.com/company/mega-soft-tech/" target="_blank"><li class="list-inline-item" ><i class="bi bi-linkedin"  data-bs-toggle="tooltip" title="linkedin"></i></li></a>
+						<a href="https://www.facebook.com/MegaSoftTech237" target="_blank"><li class="list-inline-item"><i class="bi bi-facebook" data-bs-toggle="tooltip" title="facebook"></i></li></a>
+						<a href="https://api.whatsapp.com/send?phone=237651726743" target="_blank"><li class="list-inline-item"><i class="bi bi-whatsapp" data-bs-toggle="tooltip" title="whatsapp"></i></li></a>
+					</ul>
+				</div>
+				</div>
+			
+		
+		</div>
+		
+	</div>
+	<div class="modal" tabindex="-1" id="mentions">
+		<div class="modal-dialog modal-dialog-centered">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title">A propos </h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+			  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+			  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+			</div>
+			
+		  </div>
+		</div>
+	  </div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  	<script>
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+	</script>
+</footer>
+    <div class="container mt-5">
+        <h2 class="text-center alert-danger">Mesotech service</h2>
+        
+    </div>
+    
+
+    <script src="{% static 'application/js/bootstrap.js' %}"></script>
+    <script src="{% static 'application/js/jquery.js' %}"></script>
+    <script src="{% static 'application/js/propper.js' %}"></script>
+    
+</body>
+</html>

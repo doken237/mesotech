@@ -1,0 +1,84 @@
+#ligne1
+{
+	padding: auto;
+	margin: auto;
+
+}
+
+#colonne1
+{
+	padding: auto;
+	margin: auto;
+	text-transform: uppercase;
+	color: red;
+
+	
+}
+#colonne2
+{
+	padding: auto;
+	margin: auto;
+	text-transform: italic;
+	color: blue;
+	text-shadow: 10px;
+}
+
+.stylebutton{
+	transform: scale(1);
+	transition-property:initial;
+	
+}
+.stylebutton:focus{
+	background-color: green;
+	color:darkkhaki;
+	transform: scale(1);
+	transition-duration: 2000ms;
+	border-radius: 30px;
+	transform: scale(1.15);
+
+}
+.email:focus{
+
+	color: #fff;
+	background: #000;
+
+}
+
+
+.btn {
+    position: relative;
+    transition: transform 400ms;
+		transform: perspective(250px) rotateX(45deg);
+  
+}
+
+.btn:hover{
+	transition: transform 4000ms;
+	transition-delay: 0ms,150ms;
+	transform: scale(1.15);
+	background-color:rgb(63, 223, 0);
+	color: #fff;
+	transition: transform 1000ms linear;
+	transition: transform 1000ms ease-in-out;
+
+}
+
+h1{
+	color: white;
+	border-bottom: 2px solid rgb(255, 136, 0);
+	border-left: 2px solid rgb(255, 136, 0);
+	border-right: 2px solid rgb(255, 136, 0);
+	border-radius: 5px;
+	background-color:rgb(42, 73, 216);
+	font-weight: bold;
+}
+body{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btne{
+	border-radius: 5px;
+
+}
+
+

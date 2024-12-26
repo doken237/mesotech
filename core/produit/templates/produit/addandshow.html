@@ -1,0 +1,62 @@
+{% extends 'produit/base.html' %}
+
+{% block content %}
+<div class="row">
+  <div class="col-sm-4">
+    <h4 class="text-center alert alert-info">Ajouter un Nouveau produit</h4>
+    <form action="" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" class="btn btn-success" value="Ajouter" />
+    </form>
+  </div>
+  <div class="col-sm-7 offset-1">
+    <h4 class="text-center alert alert-info">Liste des Produits</h4>
+    <input type="text" class="form-control">
+    <div class="search"><a href="#" class="btn btn-dark btn-sm">Search</a></div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Designation</th>
+          <th>PV</th>
+          <th>État</th>
+          <th>Catégorie</th>
+          <th>Image</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for produit in produits %}
+        <tr class="table-info">
+          <td>{{ produit.designation }}</td>
+          <td>{{ produit.pv }}</td>
+          <td>{{ produit.etat }}</td>
+          <td>{{ produit.id_category.libelle }}</td>
+          <td>
+            {% if produit.photo %}
+              <!-- Affichage de l'image en miniature avec une largeur de 100px -->
+              <img src="{{ produit.photo.url }}" alt="{{ produit.designation }}" style="width: 30%; height: 40%;">
+            {% else %}
+              Pas d'image
+            {% endif %}
+          </td>
+          <td>
+            <a href="{% url 'updatedata' produit.id %}" class="btn btn-warning btn-sm">Modifier</a>
+            <script>
+              function confirmDelete() {
+                  return confirm("Êtes-vous sûr de vouloir supprimer cet enregistrement ?");
+              }
+              </script>
+            <form action="{% url 'deletedata' produit.id %}" method="POST" class="d-inline" onsubmit="return confirmDelete()">
+              {% csrf_token %}
+              <input type="submit" class="btn btn-danger" value="supprimer" >
+            </form>
+        </td>
+      
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
